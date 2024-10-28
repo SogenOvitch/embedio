@@ -31,5 +31,12 @@
   <ItemGroup>
     <PackageReference Include="Unosquare.Swan.Lite" />
   </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Update="Nullable">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
   
 </Project>
